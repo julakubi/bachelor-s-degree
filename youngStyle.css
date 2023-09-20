@@ -1,0 +1,770 @@
+@font-face {
+    font-family: 'Tanohe Sans';
+    src: url('tsw/TanoheSans-Medium.woff2') format('woff2'),
+        url('tsw/TanoheSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('bcz/BarlowCondensed-Bold.woff2') format('woff2'),
+        url('bcz/BarlowCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 0px;
+    background: grey;
+    height: 2px;
+}
+
+h2 {
+    margin-left: 15%;
+    margin-top: -5%;
+    font-size: 80px;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    font-style: normal;
+}
+
+h3 {
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.childhoodText {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 0%;
+    width: 50%;
+    float: left;
+}
+
+.childhoodInfo {
+    margin-left: 5%;
+}
+
+
+.childhoodImg {
+    float: right;
+    width: 40%;
+}
+
+.herb {
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+.childhood {
+    height: 700px;
+    background-color: rgb(249 249 249);
+}
+
+.black {
+    color: rgba(245 245 245);
+    height: 900px;
+    background-color: rgb(1, 1, 1);
+}
+
+.wText {
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 0%;
+    width: 50%;
+    float: left;
+}
+
+.wInfo {
+    margin-left: 5%;
+}
+
+.wImg {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+.konarski {
+    margin-top: 20%;
+}
+
+.white {
+    height: 900px;
+    background-color: rgb(249 249 249);
+}
+
+.blackText {
+    margin-top: 7%;
+    margin-right: 5%;
+    margin-left: 0%;
+    width: 50%;
+    float: right;
+}
+
+.blackInfo {
+    margin-right: 5%;
+}
+
+.blackImg {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.whiteAllText {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 0%;
+    width: 100%;
+    float: left;
+}
+
+.whiteAllInfo {
+    margin-left: 5%;
+}
+
+.matka {
+    margin-top: 20%;
+
+}
+
+.korpus {
+    margin-top: 29%;
+}
+
+.ludwika {
+    margin-top: 20%;
+}
+
+#buttonPic1 {
+    margin-left: 5%;
+}
+
+#messagePic1 {
+    left: 50px;
+    right: 110px;
+}
+
+#buttonPic2 {
+    margin-left: 5%;
+}
+
+#messagePic2 {
+    left: 50px;
+    right: 75px;
+}
+
+#buttonPic3 {
+    margin-left: 8%;
+}
+
+#messagePic3 {
+    margin-top: -15%;
+    left: 50px;
+    right: 75px;
+}
+
+#buttonPic4 {
+    margin-left: 5%;
+}
+
+#messagePic4 {
+    margin-top: -15%;
+    left: 50px;
+    right: 75px;
+}
+
+#buttonPic5 {
+    margin-left: 7%;
+}
+
+#messagePic5 {
+    margin-top: -15%;
+    left: 50px;
+    right: 75px;
+}
+
+#buttonPic6 {
+    margin-left: 7%;
+}
+
+#messagePic6 {
+    margin-top: -17%;
+    left: 50px;
+    right: 75px;
+}
+
+#buttonPic7 {
+    margin-left: 7%;
+}
+
+#messagePic7 {
+    left: 50px;
+    right: 75px;
+    margin-top: -17%;
+}
+
+@media (min-width: 1700px) {
+
+    .matka,
+    .konarski,
+    .korpus,
+    .herb,
+    .ludwika {
+        width: 50%;
+        height: 50%;
+    }
+
+    #buttonPic1 {
+        margin-left: 10%;
+    }
+
+    #messagePic1 {
+        left: 120px;
+        right: 190px;
+    }
+
+    #buttonPic2 {
+        margin-left: 13%;
+    }
+
+    #messagePic2 {
+        margin-top: -15%;
+        left: 180px;
+        right: 200px;
+    }
+
+    #buttonPic3 {
+        margin-left: 13%;
+    }
+
+    #messagePic3 {
+        left: 180px;
+        right: 200px;
+    }
+
+    #buttonPic4 {
+        margin-left: 13%;
+    }
+
+    #messagePic4 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic5 {
+        margin-left: 13%;
+    }
+
+    #messagePic5 {
+        left: 180px;
+        right: 200px;
+    }
+
+    #buttonPic6 {
+        margin-left: 13%;
+    }
+
+    #messagePic6 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic7 {
+        margin-left: 13%;
+    }
+
+    #messagePic7 {
+        left: 180px;
+        right: 210px;
+    }
+
+}
+
+@media (min-width: 2000px) {
+
+    .matka,
+    .konarski,
+    .korpus,
+    .herb,
+    .ludwika {
+        width: 60%;
+        height: 60%;
+    }
+
+    h2 {
+        margin-top: 2%;
+        font-size: 100px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .childhood,
+    .first {
+        height: 1500px;
+    }
+
+    .black {
+        height: 1500px;
+    }
+
+    .white {
+        height: 1500px;
+    }
+
+    .childhoodText,
+    .blackText,
+    .firstText,
+    .wText {
+        font-size: 25px;
+    }
+
+    #last {
+        height: 1500px;
+    }
+
+    #buttonPic1 {
+        margin-left: 10%;
+    }
+
+    #messagePic1 {
+        left: 120px;
+        right: 190px;
+    }
+
+    #buttonPic2 {
+        margin-left: 13%;
+    }
+
+    #messagePic2 {
+        left: 180px;
+        right: 210px;
+        margin-top: -22%;
+    }
+
+    #buttonPic3 {
+        margin-left: 13%;
+    }
+
+    #messagePic3 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic4 {
+        margin-left: 13%;
+    }
+
+    #messagePic4 {
+        left: 180px;
+        right: 210px;
+        margin-top: -18%;
+    }
+
+    #buttonPic5 {
+        margin-left: 13%;
+    }
+
+    #messagePic5 {
+        left: 180px;
+        right: 210px;
+        margin-top: -22%;
+    }
+
+    #buttonPic6 {
+        margin-left: 13%;
+    }
+
+    #messagePic6 {
+        left: 180px;
+        right: 210px;
+        margin-top: -22%;
+    }
+
+    #buttonPic7 {
+        margin-left: 13%;
+    }
+
+    #messagePic7 {
+        left: 180px;
+        right: 210px;
+        margin-top: -22%;
+    }
+}
+
+@media (min-width: 2700px) {
+
+    #messagePic7,
+    #messagePic6,
+    #messagePic5,
+    #messagePic4,
+    #messagePic3,
+    #messagePic2,
+    #messagePic1 {
+        margin-top: -20%;
+    }
+
+    .matka,
+    .konarski,
+    .korpus,
+    .herb,
+    .ludwika {
+        width: 75%;
+        height: 75%;
+    }
+
+    #buttonPic1 {
+        margin-left: 5%;
+    }
+
+    #messagePic1 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic2 {
+        margin-left: 5%;
+    }
+
+    #messagePic2 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic3 {
+        margin-left: 5%;
+    }
+
+    #messagePic3 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic4 {
+        margin-left: 5%;
+    }
+
+    #messagePic4 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic5 {
+        margin-left: 5%;
+    }
+
+    #messagePic5 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic6 {
+        margin-left: 5%;
+    }
+
+    #messagePic6 {
+        left: 180px;
+        right: 210px;
+    }
+
+    #buttonPic7 {
+        margin-left: 5%;
+    }
+
+    #messagePic7 {
+        left: 180px;
+        right: 210px;
+
+    }
+
+    h2 {
+        margin-top: 5%;
+        font-size: 200px;
+    }
+
+    h3 {
+        font-size: 70px;
+    }
+
+    .childhood,
+    .first {
+        height: 2700px;
+    }
+
+    .black {
+        height: 2700px;
+    }
+
+    .white {
+        height: 2700px;
+    }
+
+    .childhoodText,
+    .blackText,
+    .firstText,
+    .wText {
+        font-size: 45px;
+    }
+
+    #last {
+        height: 2700px;
+    }
+}
+
+@media (max-width: 1700px) {
+
+    #messagePic5,
+    #messagePic3,
+    #messagePic2 {
+        margin-top: -18%;
+    }
+}
+
+@media (max-width: 1400px) {
+    #buttonPic1 {
+        margin-left: 13%;
+    }
+
+    #messagePic1 {
+        left: 60px;
+        right: 23px;
+    }
+
+    #buttonPic2 {
+        margin-left: 13%;
+    }
+
+    #messagePic2 {
+        left: 60px;
+        right: 23px;
+    }
+
+    #buttonPic3 {
+        margin-left: 13%;
+    }
+
+    #messagePic3 {
+        left: 60px;
+        right: 23px;
+    }
+
+    #buttonPic4 {
+        margin-left: 10%;
+    }
+
+    #messagePic4 {
+        margin-top: -18%;
+        left: 55px;
+        right: 23px;
+    }
+
+    #buttonPic5 {
+        margin-left: 13%;
+    }
+
+    #messagePic5 {
+        left: 60px;
+        right: 23px;
+    }
+
+    #buttonPic5 {
+        margin-left: 13%;
+    }
+
+    #messagePic5 {
+        left: 60px;
+        right: 23px;
+    }
+
+    #buttonPic6 {
+        margin-left: 13%;
+    }
+
+    #messagePic6 {
+        left: 60px;
+        right: 23px;
+    }
+
+    #buttonPic7 {
+        margin-left: 13%;
+    }
+
+    #messagePic7 {
+        left: 60px;
+        right: 23px;
+    }
+
+    #messagePic7,
+    #messagePic6,
+    #messagePic5,
+    #messagePic4,
+    #messagePic3,
+    #messagePic2,
+    #messagePic1 {
+        margin-top: -28%;
+    }
+}
+
+@media (max-width: 1025px) {
+
+    #buttonPic7,
+    #buttonPic6,
+    #buttonPic5,
+    #buttonPic4,
+    #buttonPic3,
+    #buttonPic2,
+    #buttonPic1 {
+        margin-left: 0%;
+        margin-top: -6%;
+        margin-left: 5px;
+    }
+
+    #messagePic7,
+    #messagePic6,
+    #messagePic5,
+    #messagePic4,
+    #messagePic3,
+    #messagePic2,
+    #messagePic1 {
+        margin-top: -11%;
+        left: 55px;
+        right: 35px;
+        margin-left: 2%;
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 5%;
+        width: 90%;
+    }
+
+    .childhoodText {
+        margin: 5%;
+        width: 90%;
+        float: none;
+    }
+
+    .childhoodImg {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .childhood {
+        height: 110%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .herb {
+        margin: 0;
+    }
+
+    .blackText {
+        margin: 5%;
+        width: 90%;
+        float: none;
+    }
+
+    .blackImg {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .black {
+        height: 110%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .white {
+        height: 110%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .wText {
+        margin: 5%;
+        width: 90%;
+        float: none;
+    }
+
+    .wImg {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .korpus {
+        margin: 0;
+    }
+
+    .matka {
+        margin: 0;
+    }
+
+    .konarski {
+        margin: 0;
+    }
+
+    .ludwika {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 700px) {
+
+    #buttonPic7,
+    #buttonPic6,
+    #buttonPic5,
+    #buttonPic4,
+    #buttonPic3,
+    #buttonPic2,
+    #buttonPic1 {
+        margin-top: -21%;
+        left: 20px;
+        right: 21px;
+    }
+
+    #messagePic7,
+    #messagePic6,
+    #messagePic5,
+    #messagePic4,
+    #messagePic3,
+    #messagePic2,
+    #messagePic1 {
+        font-size: 10px;
+        margin-left: -2%;
+        margin-top: -21%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #buttonPic7,
+    #buttonPic6,
+    #buttonPic5,
+    #buttonPic4,
+    #buttonPic3,
+    #buttonPic2,
+    #buttonPic1 {
+        left: 5px;
+
+    }
+}

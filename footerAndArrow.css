@@ -1,0 +1,51 @@
+.scrollTopButton {
+    width: 100px;
+    height: 65px;
+    position: fixed;
+    visibility: hidden;
+    overflow: hidden;
+    z-index: 99999999;
+    background-image: url(pictures/strzalka.png);
+    background-size: 100px 60px;
+    background-repeat: no-repeat;
+    right: 5px;
+    bottom: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+@media (min-width: 2000px) {
+    footer {
+        font-size: 25px;
+    }
+
+    .scrollTopButton {
+
+        background-size: 150px 90px;
+        width: 105px;
+        height: 86px;
+    }
+
+
+}
+
+@media (min-width: 2700px) {
+    footer {
+        font-size: 45px;
+    }
+
+    .scrollTopButton {
+
+        background-size: 180px 105px;
+        width: 130px;
+        height: 100px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+    .scrollTopButton {
+
+        display: none;
+    }
+}

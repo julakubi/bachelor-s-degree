@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .wImg {
+    float: right;
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+.hugo {
+    margin-top: 10%;
+}
+.messagePic1
+{
+
+    width:40%;
+}
+</style>
+</head>
+<body>
+    <div class="wImg">
+        <img id="picOne" class="herb" src="pictures/picturesYoung/herbRochIII.png" width="60%" height="60%">
+        
+        <button id="buttonPic1" onclick="functVisibility('messagePic1')" class="buttonPicturefirst">i</button>
+        <div id="messagePic1" class="titleAndSourcePic" style="visibility: hidden; background-color: blanchedalmond;">
+            <p style="display: inline; text-align: left;">jakiś  być, Autor też </p>
+            <a style="display: inline; text-align: left;">tutaj link</a>
+            </div>
+<p id="tu"></p>
+</body>
+<script>
+
+    function functVisibility(name)
+    {
+     if(document.getElementById(name).style.visibility=="hidden")
+     {
+       
+     document.getElementById(name).style.visibility="visible";
+    // imge=document.getElementById('picOne')
+    // message=document.getElementById('messagePic1')
+    // message.style.position="absolute";
+    // message.style.top=(imge.offsetTop + imge.height- ((imge.offsetTop + imge.height)/4))+"px";
+    // message.style.left=(imge.offsetLeft+20)+"px";
+    // message.style.width=(imageOriginWidth / 100)+"px";
+
+    // message.margin.left='20px';
+    // message.margin.right='20px';
+    // message.style.textAlign="center";
+     }
+     else{
+       document.getElementById(name).style.visibility="hidden";
+     }
+    }
+   </script>   
+</script>
+</html>

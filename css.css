@@ -1,0 +1,342 @@
+p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+/* a {
+    text-decoration: none;
+    color: red;
+    background-color: lightgray;
+} */
+
+a:hover {
+    opacity: 0.5;
+}
+
+#p1:hover~#pointer1Id,
+#p2:hover~#pointer2Id,
+#p3:hover~#pointer3Id,
+#p4:hover~#pointer4Id,
+#p5:hover~#pointer5Id {
+    opacity: 0.5;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display: grid;
+    background-color: black;
+    /* grid-template-columns: 12.5% 6.25% 6.25% 12.5% 6.25% 6.25% 6.25% 6.25% 12.5% 6.25% 6.25% 12.5%; */
+    grid-template-columns: 10% 10% 5% 5% 10% 5% 5% 5% 5% 10% 5% 5% 10% 9% 1%;
+    grid-template-rows: 150px 90px 150px;
+}
+
+.young {
+    margin: 0px;
+    text-decoration: none;
+    grid-column-start: 2;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.konst {
+    margin: 0px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    grid-column-start: 6;
+    background-color: white;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.endkos {
+    margin: 0px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    grid-column-start: 11;
+    background-color: white;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.america {
+    margin: 0px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    grid-column-start: 4;
+    background-color: white;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: last-line;
+}
+
+.insur {
+    margin: 0px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    grid-column-start: 9;
+    background-color: white;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: last-line;
+}
+
+
+.line {
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: 15;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    background: white;
+    height: 10px;
+    float: left;
+}
+
+.point {
+    align-self: center;
+    grid-column-start: 15;
+    grid-column-end: last-line;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid white;
+    float: right;
+}
+
+.pointer5 {
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: end;
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.pointer4 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: end;
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.pointer3 {
+    justify-self: center;
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 0;
+    height: 0;
+    border-top: 30px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    margin-left: 10px;
+}
+
+.pointer2 {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 0;
+    height: 0;
+    border-top: 30px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.pointer1 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 0;
+    height: 0;
+    border-top: 30px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.youngPic {
+    height: 70%;
+    width: 100%;
+    background-image: url(pictures/korpusIcon.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.youngText {
+    height: 30%;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+}
+
+.konstPic {
+    height: 70%;
+    width: 100%;
+    background-image: url(pictures/konstytucjaIcon.jpg);
+    background-size: cover;
+
+}
+
+.konstText {
+    height: 30%;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+}
+
+.endkosPic {
+    height: 70%;
+    width: 100%;
+    background-image: url(pictures/pawelIcon.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.endkosText {
+    height: 30%;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+}
+
+.americaPic {
+    height: 70%;
+    width: 100%;
+    background-image: url(pictures/saratogaIcon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.americaText {
+    height: 30%;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+}
+
+.insurPic {
+    height: 70%;
+    width: 100%;
+    background-image: url(pictures/panoramaIcon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.insurText {
+    height: 30%;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: 'bodonixtregular';
+    src: url('../bodonixt-webfont.woff2') format('woff2'),
+        url('../bodonixt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.timelineHeader {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    font-size: 60px;
+}
+
+@media (max-width: 768px) {
+
+    #pointer1Id,
+    #pointer2Id,
+    #pointer3Id,
+    #pointer4Id,
+    #pointer5Id,
+    .line,
+    .point {
+        visibility: hidden;
+
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    #p1,
+    #p2,
+    #p3,
+    #p4,
+    #p5 {
+        display: block;
+        width: 60%;
+        height: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #pointer1Id,
+    #pointer2Id,
+    #pointer3Id,
+    #pointer4Id,
+    #pointer5Id,
+    .line,
+    .point {
+        visibility: hidden;
+
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+    }
+
+
+    #p1,
+    #p2,
+    #p3,
+    #p4,
+    #p5 {
+        display: block;
+        width: 80%;
+        height: 200px;
+    }
+}
